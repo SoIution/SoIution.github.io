@@ -1,0 +1,89 @@
+body {
+	background-image: url(../img/bacground.jpg);
+	background-attachment: fixed;
+}
+
+#Osnowa {
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+
+.zagoloov {
+	margin-top: 5px;
+	margin-bottom:40px;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-bottom-left-radius: 10px;	
+	border-top-right-radius: 10px;
+}
+
+#text_osnowa {
+	padding-bottom: 20px;
+	border-radius: 15px; 
+	background-color: white;
+	box-shadow: 0px 20px white;
+}
+
+#Podzag {
+	margin-top: 100px;
+}
+
+h1 {
+
+	text-align: center;
+}
+
+.perechisl {
+	margin-bottom: 30px;
+}
+
+#text_zagl {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.text_podza {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#photo {
+
+}
+
+.podzagolowok {
+	text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+	#text_zagl {
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+hr {
+	margin-top: 100px;
+}
+
+.floor {
+	text-align: center;
+}
+
+#text_1 {
+	margin-top: 20px;
+}
+
+.perechen {
+	margin-top: 10px;
+}
+
+.image {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

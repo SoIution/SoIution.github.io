@@ -1,0 +1,71 @@
+body {
+	background-color: #e3e3e3;
+}
+
+#Osnowa {
+	background-color: white;
+	padding-bottom: 200px;
+	padding-top: 40px;
+}
+
+#Zagolowok {
+	margin-top: 20px;
+}
+
+
+#text_osnowa {
+	padding-bottom: 50px;
+	border-radius: 15px; 
+	background-color: #e3e3e3;
+	box-shadow: 0px 20px #cdcdcd;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#text_zagl {
+	text-align: center;
+}
+
+#text_zagl {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {
+	#text_zagl {
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#but_index {
+		margin-top: -30px;
+		margin-bottom: -70px;
+	}
+}
+
+.text_podza {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.button {
+	margin-bottom: 30px;
+}
+
+#but_index {
+	transition:  0.5s;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 10px;
+}
+
+#but_index:hover {
+	box-shadow: 2px 2px 8px 8px #C4C4C4;
+}
+
+.verstka {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
